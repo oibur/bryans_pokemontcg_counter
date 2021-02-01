@@ -1,15 +1,14 @@
 # python-project-2021
 Bryan McGill
 
-
-
-***January 30th, 2021 - Creating a Plan***
-My goal is to use python to count how many times each pokemon appears in the TCG and display this information as a list/chart, as well as a graph. I aim to order the appearances from most times (likely Pikachu) to least times (likely Mantyke), as well as ordered by Pokedex #. This information is interesting to me because it might have a correlation to which Pokemon are the most popular, and potentially have more collectibility value. 
-
 Project includes a README file that explains the following:
     a) A one paragraph or longer description of what your project is
     b) Which 3+ features you have included from the below lists to meet the requirements
     c) Any special instructions required for the reviewer to run your project
+    *) Features List Below
+
+***January 30th, 2021 - Creating a Plan***
+My goal is to use python to count how many times each pokemon appears in the TCG and display this information as a list/chart, as well as a graph. I aim to order the appearances from most times (likely Pikachu) to least times (likely Mantyke), as well as ordered by Pokedex #. This information is interesting to me because it might have a correlation to which Pokemon are the most popular, and potentially have more collectibility value. 
 
 Step 1 - Access the data available online.
     - This will either be downloaded in JSON form from https://github.com/PokemonTCG/pokemon-tcg-data/tree/master/json/cards or hopefully I will be able to access and import it from this API https://pokemontcg.io/
