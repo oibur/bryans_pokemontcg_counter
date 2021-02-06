@@ -1,0 +1,41 @@
+[33mcommit 1701ee1962098c0ba9e54dc45765a42a40694bb3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Bryan McGill <bktmcgill@gmail.com>
+Date:   Fri Feb 5 21:22:54 2021 -0500
+
+    learning how to import JSON
+
+[33mcommit 857779a3c5a2d376598c703a7d9bd8d624732520[m
+Author: unknown <bktmcgill@gmail.com>
+Date:   Mon Feb 1 15:24:12 2021 -0500
+
+    added all cards in JSON format
+
+[33mcommit 300d99967509842f6027872f5653dab3fa9f1ad8[m
+Author: unknown <bktmcgill@gmail.com>
+Date:   Mon Feb 1 12:32:10 2021 -0500
+
+    edits
+
+[33mcommit 9534ff6c86553c2ae4188fbaaf6be259c525389b[m
+Author: Bryan McGill <bktmcgill@gmail.com>
+Date:   Sun Jan 31 11:08:37 2021 -0500
+
+    outlining required steps
+
+[33mcommit 988bd4ffcfa4aeabab8485ae7da30e0893e4c5d3[m
+Author: Bryan McGill <bktmcgill@gmail.com>
+Date:   Sat Jan 30 12:13:43 2021 -0500
+
+    updated Readme with project requirements
+
+[33mcommit b8c1b17436ceb465d94782800a1b805d427c776b[m
+Author: Bryan McGill <35433155+oibur@users.noreply.github.com>
+Date:   Sat Jan 30 08:43:12 2021 -0500
+
+    Update README.md
+
+[33mcommit 297b689eea9c1aec571d2d4d832a9e86bd3dfbcc[m
+Author: Bryan McGill <35433155+oibur@users.noreply.github.com>
+Date:   Sat Jan 30 08:32:07 2021 -0500
+
+    Initial commit
