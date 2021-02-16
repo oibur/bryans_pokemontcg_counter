@@ -7,6 +7,14 @@ Project includes a README file that explains the following:
     c) Any special instructions required for the reviewer to run your project
     *) Features List Below
 
+***February 15, 2021 - Update***
+Step 1 - Complete through JSON files.
+Step 2 - I have figured out how to isolate the needed data from the JSON files.
+        *Need to figure out how to loop through files, pull the data I need and append it to single dict.
+        *Need to figure out any hiccups I may encounter with some Pokemon having varied names (EX, GX, V)
+Step 3 - Hoping this step will be fairly straight-forward.
+Step 4 - Doing well, and feel ahead of schedule, so this step should be achievable.
+
 ***January 30th, 2021 - Creating a Plan***
 My goal is to use python to count how many times each pokemon appears in the TCG and display this information as a list/chart, as well as a graph. I aim to order the appearances from most times (likely Pikachu) to least times (likely Mantyke), as well as ordered by Pokedex #. This information is interesting to me because it might have a correlation to which Pokemon are the most popular, and potentially have more collectibility value. 
 
@@ -24,27 +32,18 @@ Step 4 - Visualize the data in graphs!
     
 
 ***Features List:***
-1) Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program
 
 2) Create a class, then create at least one object of that class and populate it with data. The value of at least one object must be used somewhere in your code
 
 3) Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
 
-4) Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
-
 5) Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
 
 6) Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code. For example, you could create a function that reads how many items there are in a text file, returns that value, and later uses that value to execute a loop a certain number of times.
 
-7) Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format
-
 8) Connect to an external/3rd party API and read data into your app
 
-9) Create 3 or more unit tests for your application
-
 10) Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
-
-11) Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining until some event)
 
 12) Analyze text and display information about it (ex: how many words in a paragraph)
 

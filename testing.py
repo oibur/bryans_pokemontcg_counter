@@ -1,13 +1,20 @@
 import json
+import os
+
+from json_to_list import append_dex_number as adn
 
 with open('cards\Base.json') as base_set:
-    cards = json.load(base_set)
+    cards1 = json.load(base_set)
 
-for item in cards:
-    try:
-        print(item["nationalPokedexNumber"], item["name"])
-    except KeyError:
-        pass
+adn(cards1)
+
+with open('cards\Jungle.json') as base_set:
+    cards2 = json.load(base_set)
+
+adn(cards2)
+
+print
+
 
 #import the data to be used as list
     #using import json
