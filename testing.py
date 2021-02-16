@@ -3,10 +3,11 @@ import json
 with open('cards\Base.json') as base_set:
     cards = json.load(base_set)
 
-card_dict = cards[0]
-
-for _ in card_dict:
-    print(card_dict["name"])
+for item in cards:
+    try:
+        print(item["nationalPokedexNumber"], item["name"])
+    except KeyError:
+        pass
 
 #import the data to be used as list
     #using import json
