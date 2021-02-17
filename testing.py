@@ -1,19 +1,23 @@
 import json
 import os
 
-from json_to_list import append_dex_number as adn
+master_list = []
+set_names = []
 
-with open('cards\Base.json') as base_set:
-    cards1 = json.load(base_set)
+set_names = [pos_json for pos_json in os.listdir() if pos_json.endswith('.json')]
+print(set_names)
 
-adn(cards1)
+from dexlist_from_json import append_dex_number as adn
 
-with open('cards\Jungle.json') as base_set:
-    cards2 = json.load(base_set)
+with open('Base.json') as base:
+    cards1 = json.load(base)
+    master_list += adn(cards1)
 
-adn(cards2)
+with open('Ancient Origins.json') as jungle:
+    cards2 = json.load(jungle)
+    master_list += adn(cards2)
 
-print
+print(master_list)
 
 
 #import the data to be used as list
