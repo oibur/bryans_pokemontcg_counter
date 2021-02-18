@@ -1,6 +1,10 @@
 # python-project-2021
 Bryan McGill
 
+My project displays how many cards each Pokemon has been featured on over the 94 standard TCG sets. Using JSON files I found at https://github.com/PokemonTCG/pokemon-tcg-data 
+
+
+
 Project includes a README file that explains the following:
     a) A one paragraph or longer description of what your project is
     b) Which 3+ features you have included from the below lists to meet the requirements
@@ -33,8 +37,6 @@ Step 4 - Visualize the data in graphs!
 
 ***Features List:***
 
-2) Create a class, then create at least one object of that class and populate it with data. The value of at least one object must be used somewhere in your code
-
 3) Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
 
 5) Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
@@ -43,14 +45,8 @@ Step 4 - Visualize the data in graphs!
 
 8) Connect to an external/3rd party API and read data into your app
 
-10) Build a conversion tool that converts user input to another type and displays it (ex: converts cups to grams)
-
 12) Analyze text and display information about it (ex: how many words in a paragraph)
 
 13) Visualize data in a graph, chart, or other visual representation of data
-
-14) Implement a “scraper” that can be fed a type of file or URL and pull information off of it. For example, a web scraper that lets you provide any website URL and it will find certain keywords on the page
-
-15) Implement optical character recognition (OCR) that you can upload PDFs to and it will generate the text 
 
 16) Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display

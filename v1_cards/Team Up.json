@@ -1662,10 +1662,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/33_hires.png",
-    "nationalPokedexNumber": 25,
-    "evolvesTo": [
-      "Raichu"
-    ]
+    "nationalPokedexNumber": 25
   },
   {
     "id": "sm9-34",
@@ -6324,17 +6321,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/120_hires.png",
-    "nationalPokedexNumber": 133,
-    "evolvesTo": [
-      "Vaporeon",
-      "Jolteon",
-      "Flareon",
-      "Sylveon",
-      "Espeon",
-      "Umbreon",
-      "Leafeon",
-      "Glaceon"
-    ]
+    "nationalPokedexNumber": 133
   },
   {
     "id": "sm9-121",
@@ -7585,10 +7572,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/160_hires.png",
-    "nationalPokedexNumber": 129,
-    "evolvesTo": [
-      "Gyarados"
-    ]
+    "nationalPokedexNumber": 129
   },
   {
     "id": "sm9-161",
@@ -7647,10 +7631,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/161_hires.png",
-    "nationalPokedexNumber": 129,
-    "evolvesTo": [
-      "Gyarados"
-    ]
+    "nationalPokedexNumber": 129
   },
   {
     "id": "sm9-162",
@@ -7714,10 +7695,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/162_hires.png",
-    "nationalPokedexNumber": 25,
-    "evolvesTo": [
-      "Raichu"
-    ]
+    "nationalPokedexNumber": 25
   },
   {
     "id": "sm9-163",
@@ -8295,17 +8273,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/171_hires.png",
-    "nationalPokedexNumber": 133,
-    "evolvesTo": [
-      "Vaporeon",
-      "Jolteon",
-      "Flareon",
-      "Sylveon",
-      "Espeon",
-      "Umbreon",
-      "Leafeon",
-      "Glaceon"
-    ]
+    "nationalPokedexNumber": 133
   },
   {
     "id": "sm9-172",
@@ -8606,10 +8574,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/183_hires.png",
-    "nationalPokedexNumber": 129,
-    "evolvesTo": [
-      "Gyarados"
-    ]
+    "nationalPokedexNumber": 129
   },
   {
     "id": "sm9-184",
@@ -8673,10 +8638,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/184_hires.png",
-    "nationalPokedexNumber": 25,
-    "evolvesTo": [
-      "Raichu"
-    ]
+    "nationalPokedexNumber": 25
   },
   {
     "id": "sm9-185",
@@ -9139,17 +9101,7 @@
       }
     ],
     "imageUrlHiRes": "https://images.pokemontcg.io/sm9/191_hires.png",
-    "nationalPokedexNumber": 133,
-    "evolvesTo": [
-      "Vaporeon",
-      "Jolteon",
-      "Flareon",
-      "Sylveon",
-      "Espeon",
-      "Umbreon",
-      "Leafeon",
-      "Glaceon"
-    ]
+    "nationalPokedexNumber": 133
   },
   {
     "id": "sm9-192",
