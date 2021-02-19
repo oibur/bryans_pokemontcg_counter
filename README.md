@@ -1,15 +1,21 @@
 # python-project-2021
 Bryan McGill
 
-My project displays how many cards each Pokemon has been featured on over the 94 standard TCG sets. Using JSON files I found at https://github.com/PokemonTCG/pokemon-tcg-data 
+My project displays how many times each Pokemon has been featured on a card, over the 94 standard TCG sets.
+-Using JSON files I found at https://github.com/PokemonTCG/pokemon-tcg-data (Feature#5) I cut the data I needed using a loop function (Feature#6(1/3)) in dexlist_from_json.py. 
+-Then I compile the data lists from each JSON file into one data list (Feature#3) using another loop function (Feature#6(2/3)) in compile_dexlists.py. 
+-Finally I call a loop function (Feature#6(3/3)) in manipulate_data.py to create a .txt file that displays (Feature#12) how many times each Pokemon has been featured on a card. 
+-To reproduce this txt file simply run manipulate_dexlists.py
 
 
 
-Project includes a README file that explains the following:
-    a) A one paragraph or longer description of what your project is
-    b) Which 3+ features you have included from the below lists to meet the requirements
-    c) Any special instructions required for the reviewer to run your project
-    *) Features List Below
+
+
+
+***Features still to add!***
+13) Visualize data in a graph, chart, or other visual representation of data
+
+16) Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display
 
 ***February 15, 2021 - Update***
 Step 1 - Complete through JSON files.
@@ -33,20 +39,3 @@ Step 3 - Sort the data
 
 Step 4 - Visualize the data in graphs!
     - My most-to-least is OK to be displayed in a list and make sense. But I want to visualize the data in a graph ordered by Pokedex # as well. This is going to be the most challenging part of this project. As I believe I will have to use libraries to visualize the data and I have not used any yet. Also there are nearly 900 pokemon, so I will have to figure out a way to break the graph down in a way that still makes sense (i.e. generation)
-    
-
-***Features List:***
-
-3) Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-
-5) Read data from an external file, such as text, JSON, CSV, etc and use that data in your application
-
-6) Create and call at least 3 functions or methods, at least one of which must return a value that is used somewhere else in your code. To clarify, at least one function should be called in your code, that function should calculate, retrieve, or otherwise set the value of a variable or data structure, return a value to where it was called, and use that value somewhere else in your code. For example, you could create a function that reads how many items there are in a text file, returns that value, and later uses that value to execute a loop a certain number of times.
-
-8) Connect to an external/3rd party API and read data into your app
-
-12) Analyze text and display information about it (ex: how many words in a paragraph)
-
-13) Visualize data in a graph, chart, or other visual representation of data
-
-16) Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display
