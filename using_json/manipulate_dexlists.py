@@ -17,7 +17,7 @@ def count_occurences(information):
 
 count_occurences(data)
 
-with open('pokedex.txt', 'r') as f:
+with open('using_json\pokedex.txt', 'r') as f:
     dex_names = [line.strip() for line in f]
 
 def rename_keys(dict_, new_keys): 

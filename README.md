@@ -5,19 +5,17 @@ My project displays how many times each Pokemon has been featured on a card, ove
 -Using JSON files I found at https://github.com/PokemonTCG/pokemon-tcg-data (Feature#5) I cut the data I needed using a loop function (Feature#6(1/3)) in dexlist_from_json.py. 
 -Then I compile the data lists from each JSON file into one data list (Feature#3) using another loop function (Feature#6(2/3)) in compile_dexlists.py. 
 -Finally I call a loop function (Feature#6(3/3)) in manipulate_data.py to create a .txt file that displays (Feature#12) how many times each Pokemon has been featured on a card. 
--To reproduce this txt file simply run manipulate_dexlists.py
-
-
-
-
-
+-To produce this txt file simply run manipulate_dexlists.py in the using_json folder.
 
 ***Features still to add!***
 13) Visualize data in a graph, chart, or other visual representation of data
 
 16) Use pandas, matplotlib, and/or numpy to perform a data analysis project. Ingest 2 or more pieces of data, analyze that data in some manner, and display a new result to a graph, chart, or other display
 
-***February 15, 2021 - Update***
+***February 25th, 2021 - Using the API***
+I have completed steps1-3 using json files downloaded from the API, however I have run into some roadblocks including 1) havinig to pass on a UnicodeError I don't understand in 'compile_dexlists.py' 2) not every Pokemon being returned, or being returned with incomplete data. I am hoping that working with the API can give me more direct results by retreiving it with 1 function vs. 3 currently, and then I can focus more on vizualizing (the correct) data!
+
+***February 15th, 2021 - Update***
 Step 1 - Complete through JSON files.
 Step 2 - I have figured out how to isolate the needed data from the JSON files.
         *Need to figure out how to loop through files, pull the data I need and append it to single dict.
