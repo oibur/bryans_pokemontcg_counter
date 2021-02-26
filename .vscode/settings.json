@@ -1,3 +1,4 @@
 {
-    "json.maxItemsComputed": 10000
+    "json.maxItemsComputed": 10000,
+    "python.pythonPath": "C:\\Users\\Bryan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
 }
